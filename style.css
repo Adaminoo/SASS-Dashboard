@@ -1,4 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.licon {
+  width: 40px;
+}
+
 .material-symbols-outlined {
   color: blue;
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24, "size" 40;
+}
+
+.left {
+  height: 100vh;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  background-color: #dadfea;
 }/*# sourceMappingURL=style.css.map */
