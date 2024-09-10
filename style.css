@@ -20,4 +20,12 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #dadfea;
+}
+
+.icon {
+  color: black;
+}
+
+.icon:hover {
+  color: blue;
 }/*# sourceMappingURL=style.css.map */
