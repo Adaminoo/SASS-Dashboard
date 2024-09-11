@@ -1,4 +1,19 @@
-$vegablue: #489BED;
+@mixin flexrow {
+    display:flex;
+    flex-direction: row;
+}
 
+@mixin flexcol {
+    display:flex;
+    flex-direction: column;
+}
 
+@mixin aligncenter {
+    display:flex;
+    align-items: center;
+}
 
+@mixin bgcircle {
+    border-radius: 50%;
+    background-color:#c89cc4;
+}
