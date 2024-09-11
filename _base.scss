@@ -17,3 +17,8 @@
     border-radius: 50%;
     background-color:#c89cc4;
 }
+
+@mixin gtitle {
+    color:gray;
+    font-size:15px;
+}
