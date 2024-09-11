@@ -3,29 +3,58 @@ body {
   padding: 0;
   display: flex;
   flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  margin: 30px;
 }
 
 .licon {
   width: 40px;
+  margin-right: 10px;
 }
 
 .material-symbols-outlined {
+  color: black;
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24, "size" 40;
+}
+
+.material-symbols-outlined:hover {
   color: blue;
   font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24, "size" 40;
 }
 
 .left {
   height: 100vh;
-  width: 15%;
+  width: 12%;
   display: flex;
   flex-direction: column;
   background-color: #dadfea;
 }
 
-.icon {
-  color: black;
+.overview {
+  margin: 30px;
 }
 
-.icon:hover {
-  color: blue;
+.ovtitle {
+  color: gray;
+  font-size: 15px;
+}
+
+.ovicons {
+  list-style: none;
+  font-size: 20px;
+  line-height: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+.ovicon {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
 }/*# sourceMappingURL=style.css.map */
