@@ -401,10 +401,11 @@ a {
 }
 
 .graph {
+  @include base.aligncenter;
   border-radius:30px;
   margin:0px 30px;
   margin-bottom:10px;
   object-fit: cover;
-  width:100%;
+  width:90%;
   height:250px;
 }
