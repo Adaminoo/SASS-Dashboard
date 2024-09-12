@@ -119,15 +119,20 @@ body {
 }
 .cr {
   width:100%;
+  height:100vh;
+  display:flex;
 }
 
 .center {
+  
   width:60%;
   padding:30px;
   background-color:#dadfea;
+  height:100vh;
 }
 
 .searchbar {
+  
   color:gray;
   padding:15px;
   background-color:white;
@@ -213,3 +218,77 @@ body {
   color:gray;
   font-size:14px;
 }
+
+.cwbar {
+  @include base.flexrow;
+  font-size:20px;
+  margin:10px;
+}
+
+.cwthumbnails {
+  @include base.flexrow;
+  background-color:white;
+  justify-content: space-around;
+  padding:30px 0px;
+  border-radius:30px;
+}
+
+.cwfig {
+  margin:0;
+  width:275px;
+}
+
+.cwthumb {
+  object-fit: cover;
+  width:275px;
+  height:175px;
+  border-radius:30px;
+}
+
+.cwcap, .cwcap2 {
+  margin-top:10px;
+  display:flex;
+  align-items: center;
+}
+
+.cwcap2 {
+  color:rgb(70, 70, 70);
+}
+
+.cwcapim {
+  @include base.bgcircle;
+  width:30px;
+  height:30px;
+  margin-right:10px;
+}
+
+.right {
+  padding:30px;
+  width:40%;
+  @include base.flexcol;
+}
+
+.rtopbar {
+  @include base.flexrow;
+  width:100%;
+  justify-content: space-between;
+}
+
+.bicons {
+  @include base.flexrow;
+}
+
+.mailicon, .bell {
+  @include base.iconoutline;
+  margin-right:20px;
+}
+
+.profileicon {
+  @include base.aligncenter;
+}
+
+.icon {
+  @include base.bgcircle;
+  width:44px;
+}
+
